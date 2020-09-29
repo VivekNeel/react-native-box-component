@@ -1,4 +1,4 @@
-# use-infinite-scroll
+# react-native-box-component
 
 A box component for react-native.
 
