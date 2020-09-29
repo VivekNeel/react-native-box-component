@@ -1,0 +1,24 @@
+{
+  "name": "react-native-box-component",
+  "version": "1.0.0",
+  "description": "A box comopnent for react-native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivekNeel/react-native-box-component.git"
+  },
+  "keywords": [
+    "react-native",
+    "Box",
+    "flexbox"
+  ],
+  "author": "VivekNeel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivekNeel/react-native-box-component/issues"
+  },
+  "homepage": "https://github.com/VivekNeel/react-native-box-component#readme"
+}
