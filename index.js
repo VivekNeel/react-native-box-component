@@ -1,5 +1,4 @@
 // @flow
-
 /* -----------------Globals--------------- */
 import * as React from "react";
 import { View } from "react-native";
@@ -57,7 +56,7 @@ type Props = {
 };
 
 /* -----------------Component--------------- */
-const Box = (props: Props) => {
+const Box = (props: Props)  : React.Node=> {
   const { children, onLayout, pointerEvents, ...rest } = props;
   const handleOnLayout = (e) => {
     if (onLayout) {
@@ -66,9 +65,10 @@ const Box = (props: Props) => {
   };
   return (
     <View
+      //$FlowFixMeProps
+      style={{ ...rest, display: "flex" }}
       onLayout={handleOnLayout}
       pointerEvents={pointerEvents}
-      style={{ ...rest, display: "flex" }}
     >
       {children}
     </View>
